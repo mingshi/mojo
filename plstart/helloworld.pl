@@ -76,3 +76,33 @@ print "@arrtest";
 
 
 print "\n";
+
+
+
+
+my $data = "orange";
+my @data = ("purple");
+my %data = ( "0" => "blue");
+
+print $data;      # "orange"
+print "\n";
+print $data[0];   # "purple"
+print "\n";
+print $data["0"]; # "purple"
+print "\n";
+print $data{0};   # "blue"
+print "\n";
+print $data{"0"}; # "blue"
+
+
+
+print "\n";
+
+
+
+my @bones   = ("humerus", ("jaw", "skull"), "tibia");
+my @fingers = ("thumb", "index", "middle", "ring", "little");
+my @parts   = (@bones, @fingers, ("foot", "toes"), "eyeball", "knuckle");
+print @parts;
+
+print "\n";
