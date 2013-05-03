@@ -10,3 +10,6 @@ print "\n";
 my @arr = ("a","b");
 
 print scalar @arr;
+
+print "\n";
+
